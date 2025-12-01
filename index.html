@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Enviar por CVU</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h2>Transferencia por CVU</h2>
+  <p class="cvu-box">
+    <b>CVU:</b> 12943498574082042<br>
+    <b>Titular:</b> PEdik pedrito
+  </p>
+
+  <h3>Selecciona tu banco</h3>
+
+  <div class="bank-buttons">
+
+    <button onclick="openBank('mercadopago')">Mercado Pago</button>
+    <button onclick="openBank('uala')">Ualá</button>
+    <button onclick="openBank('brubank')">Brubank</button>
+    <button onclick="openBank('naranjax')">Naranja X</button>
+    <button onclick="openBank('cuentadni')">Cuenta DNI</button>
+    <button onclick="openBank('santander')">Santander</button>
+    <button onclick="openBank('bbva')">BBVA</button>
+    <button onclick="openBank('galicia')">Galicia</button>
+    <button onclick="openBank('macro')">Macro</button>
+    <button onclick="openBank('reba')">Reba</button>
+    <button onclick="openBank('icb')">ICB</button>
+
+  </div>
+
+  <div id="fallbackArea"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
